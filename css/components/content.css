@@ -1,0 +1,227 @@
+.portfolio {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .portfolio__title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .portfolio__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio__image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio__item:hover .portfolio__image {
+    transform: scale(1.1);
+  }
+  
+  .portfolio__item:hover .portfolio__overlay {
+    opacity: 1;
+  }
+  
+  .portfolio__project-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio__project-description {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+
+  .pricing {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .pricing__title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .pricing__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .pricing__card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing__card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .pricing__card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .pricing__price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #0066cc;
+  }
+  
+  .pricing__features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pricing__feature {
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  .pricing__cta-btn {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pricing__cta-btn:hover {
+    background-color: #0052a3;
+  }
+
+  .testimonials {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .testimonials__title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .testimonials__slider {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .testimonials__slide {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .testimonials__quote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonials__author {
+    font-weight: bold;
+    color: #666;
+  }
+
+
+  .contact {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .contact__title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .contact__form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact__form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .contact__input,
+  .contact__textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .contact__textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .contact__submit-btn {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact__submit-btn:hover {
+    background-color: #0052a3;
+  }

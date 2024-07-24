@@ -1,0 +1,10 @@
+/* main.css */
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/content.css";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
