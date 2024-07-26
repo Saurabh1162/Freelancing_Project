@@ -2,9 +2,19 @@
 @import "components/header.css";
 @import "components/footer.css";
 @import "components/content.css";
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+@import "components/swiper.css";
+:root {
+    --primary-color: #003366;
+    --secondary-color: #4CAF50;
+    --text-color: #333333;
+    --background-color: #FFFFFF;
 }
 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}

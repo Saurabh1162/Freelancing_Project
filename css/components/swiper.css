@@ -1,0 +1,130 @@
+/* BEM naming convention */
+.page {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header__title {
+    font-size: 2em;
+    color: #333;
+}
+
+.header__description {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__wrapper {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
+
+.swiper__container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work {
+    text-align: center;
+}
+
+.work__image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.work__description {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #333;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #333;
+}
+
+.web-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.web-services__item {
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.web-services__item--active {
+    transform: scale(1.2);
+}
+
+.web-services__image {
+    width: 200px;
+    height: auto;
+}
+
+.web-services__title {
+    font-size: 1.5em;
+    color: blue;
+    margin-top: 10px;
+}
+
+.web-services__description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+.web-services__button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.web-services__button--border {
+    background: transparent;
+    color: blue;
+}
+
+.web-services__button--border:hover {
+    background: blue;
+    color: white;
+}
+
+.web-services__button--bg {
+    background: lightgray;
+    color: white;
+}
+
+.web-services__button--bg:hover {
+    background: gray;
+}

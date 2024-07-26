@@ -1,64 +1,145 @@
-.footer {
-  background-color: #333;
-  color: white;
-  padding: 4rem 2rem 2rem;
-}
-
-.footer__content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.footer__column {
-  flex: 1;
-  min-width: 200px;
-}
-
-.footer__column-title {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.footer__links {
-  list-style-type: none;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
   padding: 0;
 }
 
-.footer__link {
-  color: #ccc;
-  text-decoration: none;
-  margin-bottom: 0.5rem;
-  display: inline-block;
+.blog-section {
+  position: relative;
+  padding: 40px;
+  overflow: hidden;
 }
 
-.footer__link:hover {
-  color: white;
+.blog-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/blog.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
 }
 
-.footer__social-icons {
+.blog-content {
+  position: relative;
+  z-index: 1;
+}
+
+.blog-header {
+  position: relative;
+}
+
+.blog-title {
+  font-size: 48px;
+  color: #a3d39c;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+
+.blog-list {
+  margin-top: 60px;
+}
+
+.blog-item {
   display: flex;
-  gap: 1rem;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
 }
 
-.footer__social-icon {
-  color: #ccc;
-  text-decoration: none;
+.blog-date {
+  flex: 0 0 100px;
+  color: #888;
 }
 
-.footer__social-icon:hover {
+.blog-text {
+  flex: 1;
+  margin: 0;
+  color: #333;
+}
+
+.footer {
+  background-color: #1a3668;
   color: white;
+  margin-top: 42px;
 }
 
-.footer__bottom {
-  border-top: 1px solid #555;
-  padding-top: 1rem;
+.footer-content {
+  position: relative;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.footer-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/blog.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+}
+
+.footer-text-content {
+  position: relative;
+  z-index: 1;
   text-align: center;
 }
 
-.footer__copyright {
-  font-size: 0.9rem;
-  color: #ccc;
+.footer-text {
+  margin: 5px 0;
+  font-size: 18px;
 }
+
+.footer-contact {
+  margin: 20px 0;
+}
+
+.footer-phone {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.footer-hours {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-button {
+  background-color: #39b54a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.footer-logo {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.address, .copyright {
+  font-size: 12px;
+  margin: 5px 0;
+}
+

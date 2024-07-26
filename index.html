@@ -5,140 +5,259 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__logo">
-          <img src="logo.png" alt="Company Logo" class="header__logo-image">
-        </div>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
-            <li class="header__nav-item"><a href="#" class="header__nav-link">Services</a></li>
-            <li class="header__nav-item"><a href="#" class="header__nav-link">Portfolio</a></li>
-            <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
-          </ul>
-        </nav>
-        <button class="header__contact-btn">お問い合わせ</button>
-      </header>
+  
+  <header class="header">
+    <div class="header__logo">LOGO</div>
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="#" class="header__nav-link">ホーム</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">サービス</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">実績紹介</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">料金案内</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">ブログ</a></li>
+        </ul>
+    </nav>
+    <div class="header__contact">
+        <a href="tel:0312345678" class="header__phone">03-1234-5678</a>
+        <button class="header__button">お問い合わせ</button>
+    </div>
+</header>
 
 
-      <section class="hero">
-        <div class="hero__content">
-          <h1 class="hero__title">法人集客にフォーカスしたホームページ制作のご提案を。</h1>
-          <p class="hero__subtitle">デザインから実装までサポート</p>
-          <button class="hero__cta-btn">Get Started</button>
-        </div>
+<main>
+  <section class="main-banner">
+    <h1 class="main-banner__title">
+        <span class="main-banner__title-highlight">法人集客にフォーカスした</span><br>
+        <span class="main-banner__title-highlight">ホームページ制作のご提案を。</span>
+    </h1>
+    <p class="main-banner__subtitle">
+        <span class="main-banner__subtitle-highlight">デザインから集客まで客観的にサポート</span>
+    </p>
+    <div class="main-banner__contact">
+        <a href="tel:0312345678" class="main-banner__phone">03-1234-5678</a>
+        <button class="main-banner__button">お問い合わせ</button>
+    </div>
+</section>
+
+<section class="news">
+  <div class="news__header">
+      <h2 class="news__title">NEWS</h2>
+      <time class="news__date">2020/00/00</time>
+      <p class="news__subtitle">タイトルテキストリンクタイトルテキストリンクタイトルテキストリンク</p>
+  </div>
+  <div class="news__content">
+      <div class="news__sidebar">
+          <span class="news__sidebar-text">CONCEPT</span>
+      </div>
+      <div class="news__main">
+          <div class="news__flex-container">
+              <img src="/images/banner_image.avif" alt="Business meeting with laptop and charts" class="news__image">
+              <div class="news__text-box">
+                  <h3 class="news__headline">
+                      <span class="news__headline-highlight">高クオリティのホームページを</span><br>
+                      <span class="news__headline-highlight">お手頃価格でご提供</span>
+                  </h3>
+                  <p class="news__price">
+                      <span class="news__price-highlight">平均参考価格 45～65万円</span>
+                  </p>
+              </div>
+          </div>
+          <p class="news__description">
+              制作会社によって価格が大きく異なるホームページ制作。弊社では、高品質なホームページを適正価格でご提供しています。お客様のニーズに合わせた柔軟な対応と、透明性のある価格設定で、満足度の高いサービスを実現します。
+          </p>
+          <button class="news__button">詳しく見る ＞</button>
+      </div>
+  </div>
+</section>
+</main>
+
+
+      <section class="logo-design">
+        <div class="logo-features">
+          <div class="logo-features__left">
+            <p class="logo-features__subtitle">他の制作会社様との違い</p>
+            <h2 class="logo-features__title">LOGOの3つの特徴</h2>
+            <p class="logo-features__description">集客に特化したクオリティの高いデザインを安価な価格内容で制作いたします。</p>
+          </div>
+          <div class="logo-features__right">
+            <div class="logo-features__item">
+              <span class="logo-features__item-number">01</span>
+              <div class="logo-features__item-content">
+                <h3 class="logo-features__item-title">集客を最優先</h3>
+                <p class="logo-features__item-description">特徴についての文章特徴についての文章特徴についての文章についての文章特徴についての文章</p>
+              </div>
+            </div>
+            <div class="logo-features__item">
+              <span class="logo-features__item-number">02</span>
+              <div class="logo-features__item-content">
+                <h3 class="logo-features__item-title">安価な制作費用</h3>
+                <p class="logo-features__item-description">特徴についての文章特徴についての文章特徴についての文章についての文章特徴についての文章</p>
+              </div>
+            </div>
+            <div class="logo-features__item">
+              <span class="logo-features__item-number">03</span>
+              <div class="logo-features__item-content">
+                <h3 class="logo-features__item-title">戦略的なデザイン</h3>
+                <p class="logo-features__item-description">特徴についての文章特徴についての文章特徴についての文章についての文章特徴についての文章</p>
+              </div>
+            </div>
+          </div>
+          <div class="logo-features__right__corner">
+          </div>
+        </div>      
       </section>
 
 
-      <section class="services">
-        <h2 class="services__title">Our Services</h2>
-        <div class="services__grid">
-          <div class="services__item">
-            <i class="services__icon icon-design"></i>
-            <h3 class="services__item-title">Web Design</h3>
-            <p class="services__item-description">Custom designs tailored to your brand.</p>
-          </div>
-          <div class="services__item">
-            <i class="services__icon icon-development"></i>
-            <h3 class="services__item-title">Development</h3>
-            <p class="services__item-description">Responsive and fast websites.</p>
-          </div>
-          <div class="services__item">
-            <i class="services__icon icon-seo"></i>
-            <h3 class="services__item-title">SEO</h3>
-            <p class="services__item-description">Optimize your site for search engines.</p>
-          </div>
-        </div>
-      </section>
 
 
 
-      <section class="pricing">
-        <h2 class="pricing__title">Our Pricing</h2>
-        <div class="pricing__container">
-          <div class="pricing__card">
-            <h3 class="pricing__card-title">Basic Plan</h3>
-            <p class="pricing__price">¥450,000 - ¥650,000</p>
-            <ul class="pricing__features">
-              <li class="pricing__feature">Custom Design</li>
-              <li class="pricing__feature">Responsive Layout</li>
-              <li class="pricing__feature">Basic SEO</li>
-            </ul>
-            <button class="pricing__cta-btn">Get Started</button>
-          </div>
-          <!-- Add more pricing cards as needed -->
-        </div>
-      </section>
 
 
-      <section class="testimonials">
-        <h2 class="testimonials__title">What Our Clients Say</h2>
-        <div class="testimonials__slider">
-          <div class="testimonials__slide">
-            <p class="testimonials__quote">"Excellent service and stunning design. Highly recommended!"</p>
-            <p class="testimonials__author">- John Doe, Company A</p>
+        <section class="web-support">
+          <h2 class="web-support__title">WEB集客をトータルサポート</h2>
+          <p class="web-support__description">デザインからコーディング・制作まで全て社内にて一つ上の提案を何度でも行えるため、外注や分業スタイルのため分からない、まとまらないといった心配がなく、安全・安心なサイト制作をいたします。</p>
+          
+          <div class="web-support__cards">
+            <div class="web-support__card">
+              <img src="/images/banner_image.avif" alt="ホームページ制作事業" class="web-support__card-image">
+              <div class="image__text-box">
+                <span >ホームページ制作事業</span >
+              </div>
+              <h3 class="web-support__card-title">ホームページ制作事業</h3>
+              <p class="web-support__card-description">事業内容についての文章事業内容について事業内容についての文章事業内容についての文章事業内容についての文章内容についての文章</p>
+              <button class="web-support__card-button">詳しく見る ➜</button>
+            </div>
+            <div class="web-support__card">
+              <img src="/images/banner_image.avif" alt="SEO対策事業" class="web-support__card-image">
+              <div class="image__text-box">
+                <span >ホームページ制作事業</span >
+              </div>
+              <h3 class="web-support__card-title">SEO対策事業</h3>
+              <p class="web-support__card-description">事業内容についての文章事業内容について事業内容についての文章事業内容についての文章事業内容についての文章内容についての文章</p>
+              <button class="web-support__card-button">詳しく見る ➜</button>
+            </div>
+            <div class="web-support__card">
+              <img src="/images/banner_image.avif" alt="WEB運用事業" class="web-support__card-image">\
+              <div class="image__text-box">
+                <span >ホームページ制作事業</span >
+              </div>
+              <h3 class="web-support__card-title">WEB運用事業</h3>
+              <p class="web-support__card-description">事業内容についての文章事業内容について事業内容についての文章事業内容についての文章事業内容についての文章内容についての文章</p>
+              <button class="web-support__card-button">詳しく見る ➜</button>
+            </div>
           </div>
-          <div class="testimonials__slide">
-            <p class="testimonials__quote">"They transformed our online presence. We couldn't be happier!"</p>
-            <p class="testimonials__author">- Jane Smith, Company B</p>
-          </div>
-          <!-- Add more testimonial slides as needed -->
-        </div>
-      </section>
-
-
-      <section class="contact">
-        <h2 class="contact__title">Get in Touch</h2>
-        <form class="contact__form">
-          <div class="contact__form-group">
-            <label for="name" class="contact__label">Name</label>
-            <input type="text" id="name" name="name" class="contact__input" required>
-          </div>
-          <div class="contact__form-group">
-            <label for="email" class="contact__label">Email</label>
-            <input type="email" id="email" name="email" class="contact__input" required>
-          </div>
-          <div class="contact__form-group">
-            <label for="message" class="contact__label">Message</label>
-            <textarea id="message" name="message" class="contact__textarea" required></textarea>
-          </div>
-          <button type="submit" class="contact__submit-btn">Send Message</button>
-        </form>
-      </section>
+        </section>
 
 
 
-      <footer class="footer">
-        <div class="footer__content">
-          <div class="footer__column">
-            <h3 class="footer__column-title">Company Name</h3>
-            <p class="footer__address">123 Web Street, Tokyo, Japan</p>
-            <p class="footer__phone">Phone: +81 3-1234-5678</p>
-          </div>
-          <div class="footer__column">
-            <h3 class="footer__column-title">Quick Links</h3>
-            <ul class="footer__links">
-              <li><a href="#" class="footer__link">Home</a></li>
-              <li><a href="#" class="footer__link">Services</a></li>
-              <li><a href="#" class="footer__link">Portfolio</a></li>
-              <li><a href="#" class="footer__link">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer__column">
-            <h3 class="footer__column-title">Follow Us</h3>
-            <div class="footer__social-icons">
-              <a href="#" class="footer__social-icon">Facebook</a>
-              <a href="#" class="footer__social-icon">Twitter</a>
-              <a href="#" class="footer__social-icon">LinkedIn</a>
+        <div class="page">
+          <header class="header">
+              <h1 class="header__title">WEB集客をトータルサポート</h1>
+              <p class="header__description">
+                  B社のコーポレートサイトを中心に様々なWEBサイトの制作実績がございます。...
+              </p>
+          </header>
+          <main class="main">
+              <div class="main__wrapper">
+                  <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <div class="work">
+                                  <img src="images/blog.jpg" alt="Work 1" class="work__image">
+                                  <p class="work__description">Description for Work 1...</p>
+                                  <p class="web-services__description">Service Description 1</p>
+                      <button class="web-services__button web-services__button--border">Learn More</button>
+                      <button class="web-services__button web-services__button--bg">Get Started</button>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="work">
+                                  <img src="images/blog.jpg" alt="Work 2" class="work__image">
+                                  <p class="work__description">Description for Work 2...</p>
+                                  <p class="web-services__description">Service Description 2</p>
+                                  <button class="web-services__button web-services__button--border">Learn More</button>
+                                  <button class="web-services__button web-services__button--bg">Get Started</button>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="work">
+                                  <img src="images/blog.jpg" alt="Work 3" class="work__image">
+                                  <p class="work__description">Description for Work 3...</p>
+                                  <p class="web-services__description">Service Description 3</p>
+                                  <button class="web-services__button web-services__button--border">Learn More</button>
+                                  <button class="web-services__button web-services__button--bg">Get Started</button>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                  </div>
+              </div>
+      
+              </div>
+          </main>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/jquery-inview/jquery.inview.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sticky-sidebar@3.3.1/dist/sticky-sidebar.min.js"></script>
+     
+      
+
+
+
+
+        <div class="blog-section">
+          <div class="blog-background"></div>
+          <div class="blog-content">
+            <div class="blog-header">
+              <h2 class="blog-title">BLOG</h2>
+            </div>
+            <div class="blog-list">
+              <div class="blog-item">
+                <span class="blog-date">2023/10/00</span>
+                <p class="blog-text">タイトルテキストリンクタイトルテキストリンクタイトルテキストリンク</p>
+              </div>
+              <div class="blog-item">
+                <span class="blog-date">2023/10/00</span>
+                <p class="blog-text">タイトルテキストリンクタイトルテキストリンクタイトルテキストリンク</p>
+              </div>
+              <div class="blog-item">
+                <span class="blog-date">2023/10/00</span>
+                <p class="blog-text">タイトルテキストリンクタイトルテキストリンクタイトルテキストリンク</p>
+              </div>
+              <div class="blog-item">
+                <span class="blog-date">2023/10/00</span>
+                <p class="blog-text">タイトルテキストリンクタイトルテキストリンクタイトルテキストリンク</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer__bottom">
-          <p class="footer__copyright">&copy; 2024 Company Name. All rights reserved.</p>
-        </div>
-      </footer>
+        
+        
+        <footer class="footer">
+          <div class="footer-content">
+            <div class="footer-background"></div>
+            <div class="footer-text-content">
+              <p class="footer-text">お気軽にお問い合わせください！</p>
+              <p class="footer-text">サクッと概算見積書を作成します</p>
+              <div class="footer-contact">
+                <p class="footer-phone">03-1234-5678</p>
+                <p class="footer-hours">平日10：00〜18：00</p>
+              </div>
+              <button class="footer-button">お問い合わせ ＞</button>
+            </div>
+          </div>
+          <div class="footer-divider"></div>
+          <div class="footer-logo">
+            <p class="logo">LOGO</p>
+            <p class="address">〒123-456 東京都千代田区丸の内1-1-1 KAKUビル2F</p>
+            <p class="copyright">© Copyright 2023 All rights reserved.</p>
+          </div>
+        </footer>   
 
     <script src="js/main.js"></script>
 </body>
